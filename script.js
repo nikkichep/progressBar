@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 		currentGfgStep.animate({ opacity: 0 }, { 
 			step: function (now) { 
-				opacity = 1 - now; 
+				opacity = 2 - now; 
 
 				currentGfgStep.css({ 
 					'display': 'none', 
